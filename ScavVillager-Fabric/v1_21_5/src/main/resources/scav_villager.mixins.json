@@ -10,7 +10,8 @@
     "SoundManagerMixin",
     "ToastManagerMixin",
     "AdvancementToastMixin",
-    "SoundEngineMixin"
+    "SoundEngineMixin",
+    "ClientCommandTreeMixin"
   ],
   "injectors": {
     "defaultRequire": 1
