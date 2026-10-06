@@ -40,6 +40,11 @@ public final class Compat {
         mc.gui.toastManager().addToast(toast);
     }
 
+    /** 切换界面（26.2：setScreen 改名 setScreenAndShow）。 */
+    public static void setScreen(Minecraft mc, Screen screen) {
+        mc.setScreenAndShow(screen);
+    }
+
     /** 当前打开的界面（26.2 起 Minecraft.screen 挪到了 Gui.screen()）。 */
     public static Screen currentScreen(Minecraft mc) {
         return mc.gui.screen();

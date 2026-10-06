@@ -64,7 +64,7 @@ public final class VoiceBinder {
      */
     public static boolean tryRebind(SoundInstance instance, int delayTicks) {
         ScavConfig cfg = ScavConfig.get();
-        if (!cfg.enableMod || instance instanceof VoiceSound) {
+        if (!cfg.enableMod || !cfg.followEntities || instance instanceof VoiceSound) {
             return false;
         }
         Identifier loc = instance.getIdentifier();

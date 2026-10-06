@@ -32,7 +32,6 @@ REPLACEMENTS = [
     ("import net.minecraft.world.entity.animal.IronGolem;", "import net.minecraft.world.entity.animal.golem.IronGolem;"),
     ("ResourceLocation", "Identifier"),          # 简单名（含泛型/声明）
     (".getLocation()", ".getIdentifier()"),      # SoundInstance 的 id 取值
-    (".setScreen(", ".setScreenAndShow("),       # Minecraft 的切换界面
 ]
 
 def transform(text: str) -> str:
@@ -98,6 +97,11 @@ public final class Compat {
     /** 弹提示框（26.2：Minecraft.gui.toastManager()）。 */
     public static void addToast(Minecraft mc, Toast toast) {
         mc.gui.toastManager().addToast(toast);
+    }
+
+    /** 切换界面（26.2：setScreen 改名 setScreenAndShow）。 */
+    public static void setScreen(Minecraft mc, Screen screen) {
+        mc.setScreenAndShow(screen);
     }
 
     /** 当前打开的界面（26.2 起 Minecraft.screen 挪到了 Gui.screen()）。 */

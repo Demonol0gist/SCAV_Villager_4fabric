@@ -24,6 +24,8 @@ public class ScavConfig {
     public boolean enableGuard = true;
     public boolean verboseLog = false;
 
+    /** 语音是否绑定实体播放（跟随移动）。关掉就保持原版的固定位置播放。 */
+    public boolean followEntities = true;
     public double volume = 1.0;                 // 0.0 ~ 2.0，1.0 = 原音量
     public boolean babyPitch = true;            // 小村民变音（约 1.5 倍音高）
     public int ambientIntervalTicks = 20;       // 同一只生物两次待机语音的最小间隔（0 = 原版节奏）

@@ -46,6 +46,12 @@ public final class Compat {
         return mc.screen;
     }
 
+
+    /** 切换界面（26.2 起 setScreen 改名 setScreenAndShow）。 */
+    public static void setScreen(Minecraft mc, Screen screen) {
+        mc.setScreen(screen);
+    }
+
     private Compat() {
     }
 }

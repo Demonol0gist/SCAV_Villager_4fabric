@@ -99,7 +99,7 @@ public final class UiSounds {
         if (cfg.error228Sound) {
             playUi(SoundIds.UI_ERROR_228);
         }
-        Scheduler.after(1, () -> mc.setScreen(new Error228Screen()));
+        Scheduler.after(1, () -> Compat.setScreen(mc, new Error228Screen()));
     }
 
     /** 配方提示音：原版延后 RECIPE_DELAY_TICKS 再播。 */
