@@ -3,6 +3,7 @@ package com.arkit.scavvillager.mixin;
 import com.arkit.scavvillager.Compat;
 import com.arkit.scavvillager.ScavConfigScreen;
 import com.arkit.scavvillager.ScavVillagerClient;
+import com.arkit.scavvillager.Scheduler;
 import com.arkit.scavvillager.UiSounds;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientPacketListener;
@@ -18,8 +19,11 @@ public class ClientPacketListenerMixin {
     @Inject(method = "sendCommand", at = @At("HEAD"), cancellable = true)
     private void scavVillager$error228Command(String command, CallbackInfo ci) {
         if ("scav".equals(command) || "scav config".equals(command)) {
-            Minecraft.getInstance().execute(() ->
-                    Compat.setScreen(Minecraft.getInstance(), new ScavConfigScreen(Compat.currentScreen(Minecraft.getInstance()))));
+            // 必须延后一 tick：聊天框在 handleChatInput 末尾会 setScreen(null)，
+            // 立刻开界面会紧接着被它覆盖掉（228 弹窗走的是同一条延后路径，所以一直正常）
+            Minecraft mc = Minecraft.getInstance();
+            Scheduler.after(1, () ->
+                    Compat.setScreen(mc, new ScavConfigScreen(Compat.currentScreen(mc))));
             ci.cancel();                        // 不发到服务端
             return;
         }

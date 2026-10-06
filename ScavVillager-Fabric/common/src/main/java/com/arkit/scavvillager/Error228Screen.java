@@ -65,14 +65,18 @@ public class Error228Screen extends Screen {
 
     @Override
     public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
-        Compat.renderBackground(this, graphics);
+        // 不调用原版的 renderBackground：它会给世界加菜单背景模糊，看起来像蒙了一层滤镜。
+        // 这里直接用自绘的深色底 + 面板，界面是清晰的。
         int left = (this.width - PANEL_WIDTH) / 2;
         int top = (this.height - PANEL_HEIGHT) / 2;
 
         graphics.fill(0, 0, this.width, this.height, COLOR_BACKDROP);
         graphics.fill(left, top, left + PANEL_WIDTH, top + PANEL_HEIGHT, COLOR_PANEL);
-        graphics.drawCenteredString(this.font, "228: " + TITLE + " [" + this.glitchCode + "]", this.width / 2, top + 22, COLOR_TITLE);
-        graphics.drawCenteredString(this.font, Component.literal(this.glitchCode.toUpperCase()), this.width / 2, top + 42, COLOR_TEXT);
+        // 用不带投影的 drawString：drawCenteredString 会加阴影，文字看着发虚
+        String line1 = "228: " + TITLE + " [" + this.glitchCode + "]";
+        String line2 = this.glitchCode.toUpperCase();
+        graphics.drawString(this.font, line1, this.width / 2 - this.font.width(line1) / 2, top + 22, COLOR_TITLE, false);
+        graphics.drawString(this.font, line2, this.width / 2 - this.font.width(line2) / 2, top + 42, COLOR_TEXT, false);
         super.render(graphics, mouseX, mouseY, partialTick);
     }
 
