@@ -1,0 +1,10 @@
+{
+ "scav_villager.subtitle.entity.villager.alert": "Villager notices something",
+ "scav_villager.subtitle.entity.villager.grenade": "Villager spots active TNT",
+ "scav_villager.subtitle.entity.pillager.alert": "Pillager spots an enemy",
+ "scav_villager.subtitle.entity.pillager.fight": "Pillager battle cry",
+ "scav_villager.subtitle.entity.pillager.clear": "Pillager loses its target",
+ "scav_villager.subtitle.entity.pillager.grenade": "Pillager spots active TNT",
+ "scav_villager.subtitle.entity.villager.witness": "Villager witnesses a death",
+ "scav_villager.subtitle.entity.pillager.witness": "Pillager witnesses a death"
+}

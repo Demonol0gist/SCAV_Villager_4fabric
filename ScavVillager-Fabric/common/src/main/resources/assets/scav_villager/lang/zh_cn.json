@@ -1,0 +1,10 @@
+{
+ "scav_villager.subtitle.entity.villager.alert": "村民察觉到了动静",
+ "scav_villager.subtitle.entity.villager.grenade": "村民发现点燃的TNT",
+ "scav_villager.subtitle.entity.pillager.alert": "掠夺者发现了敌人",
+ "scav_villager.subtitle.entity.pillager.fight": "掠夺者战斗喊话",
+ "scav_villager.subtitle.entity.pillager.clear": "掠夺者失去了目标",
+ "scav_villager.subtitle.entity.pillager.grenade": "掠夺者发现点燃的TNT",
+ "scav_villager.subtitle.entity.villager.witness": "村民目击死亡",
+ "scav_villager.subtitle.entity.pillager.witness": "掠夺者目击死亡"
+}

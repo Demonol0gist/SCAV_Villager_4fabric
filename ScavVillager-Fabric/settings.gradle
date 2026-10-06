@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        maven {
+            name = 'Aliyun'
+            url = 'https://maven.aliyun.com/repository/gradle-plugin'
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'scav-villager-fabric'
+
+// 一套源码，按 Minecraft 版本分组各出一个 jar
+include 'v1_20_1'      // 1.20.1
+include 'v1_21'        // 1.21 / 1.21.1
+include 'v1_21_2'   // 1.21.2（>=1.21.2 <1.21.4）
+include 'v1_21_4'   // 1.21.4（>=1.21.4 <1.21.5）
+include 'v1_21_5'   // 1.21.5（>=1.21.5 <1.21.6）
+include 'v1_21_6'   // 1.21.6（>=1.21.6 <1.21.9）
+include 'v1_21_9'   // 1.21.9（>=1.21.9 <1.22）

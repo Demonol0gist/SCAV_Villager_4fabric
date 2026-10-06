@@ -1,0 +1,56 @@
+plugins {
+    id 'fabric-loom' version '1.6.12'
+    id 'java'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = "scav-villager-fabric-${project.minecraft_version}"
+}
+
+repositories {
+    // 国内加速；解析不到时回落到 Maven Central
+    maven {
+        name = 'Aliyun'
+        url = 'https://maven.aliyun.com/repository/central'
+    }
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+}
+
+loom {
+    mixin {
+        defaultRefmapName = "scav_villager.refmap.json"
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir rootProject.file('common/src/main/java')
+            srcDir rootProject.file('common/mixin-result/java')   // 放音拦截：PlayResult 形态（≥1.21.6）
+            // 1.21.2+ 的 toast 形态（ToastManager + render(GuiGraphics,Font,long)）
+            srcDir rootProject.file('common/toast-new/java')
+        }
+        resources.srcDir rootProject.file('common/src/main/resources')
+    }
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+    options.release = project.java_release as int
+}

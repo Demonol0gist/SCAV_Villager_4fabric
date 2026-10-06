@@ -1,0 +1,55 @@
+plugins {
+    // 26.1 起 Minecraft 不再混淆：用去混淆版插件（不写 mappings、不用 modImplementation、不 remap）
+    id 'net.fabricmc.fabric-loom' version '1.18.2'
+    id 'java'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = "scav-villager-fabric-${project.minecraft_version}"
+}
+
+repositories {
+    maven {
+        name = 'Aliyun'
+        url = 'https://maven.aliyun.com/repository/central'
+    }
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    // 去混淆版没有 modImplementation 配置，直接用 implementation
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+}
+
+sourceSets {
+    main {
+        java {
+            // 共享代码由 ../_toolchain/make_26_sources.py 自动改写而来（类改名/换包）
+            srcDir 'src26/java'
+            // 26.2 专用的 GUI 与 Compat 在 src/main/java 里手写
+        }
+        resources.srcDir rootProject.file('../ScavVillager-Fabric/common/src/main/resources')
+    }
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+    options.release = 25
+}

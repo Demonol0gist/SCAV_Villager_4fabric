@@ -1,0 +1,1116 @@
+{
+ "entity.villager.alert": {
+  "subtitle": "scav_villager.subtitle.entity.villager.alert",
+  "sounds": [
+   "scav_villager:mob/villager/alert1",
+   "scav_villager:mob/villager/alert2",
+   "scav_villager:mob/villager/alert3",
+   "scav_villager:mob/villager/alert4",
+   "scav_villager:mob/villager/alert5",
+   "scav_villager:mob/villager/alert6",
+   "scav_villager:mob/villager/alert7",
+   "scav_villager:mob/villager/alert8",
+   "scav_villager:mob/villager/alert9",
+   "scav_villager:mob/villager/alert10",
+   "scav_villager:mob/villager/alert11",
+   "scav_villager:mob/villager/alert12",
+   "scav_villager:mob/villager/alert13",
+   "scav_villager:mob/villager/alert14",
+   "scav_villager:mob/villager/alert15",
+   "scav_villager:mob/villager/alert16",
+   "scav_villager:mob/villager/alert17",
+   "scav_villager:mob/villager/alert18",
+   "scav_villager:mob/villager/alert19",
+   "scav_villager:mob/villager/alert20",
+   "scav_villager:mob/villager/alert21",
+   "scav_villager:mob/villager/alert22",
+   "scav_villager:mob/villager/alert23",
+   "scav_villager:mob/villager/alert24",
+   "scav_villager:mob/villager/alert25",
+   "scav_villager:mob/villager/alert26",
+   "scav_villager:mob/villager/alert27",
+   "scav_villager:mob/villager/alert28",
+   "scav_villager:mob/villager/alert29",
+   "scav_villager:mob/villager/alert30",
+   "scav_villager:mob/villager/alert31",
+   "scav_villager:mob/villager/alert32",
+   "scav_villager:mob/villager/alert33",
+   "scav_villager:mob/villager/alert34",
+   "scav_villager:mob/villager/alert35",
+   "scav_villager:mob/villager/alert36",
+   "scav_villager:mob/villager/alert37",
+   "scav_villager:mob/villager/alert38",
+   "scav_villager:mob/villager/alert39",
+   "scav_villager:mob/villager/alert40",
+   "scav_villager:mob/villager/alert41",
+   "scav_villager:mob/villager/alert42",
+   "scav_villager:mob/villager/alert43",
+   "scav_villager:mob/villager/alert44",
+   "scav_villager:mob/villager/alert45",
+   "scav_villager:mob/villager/alert46",
+   "scav_villager:mob/villager/alert47",
+   "scav_villager:mob/villager/alert48",
+   "scav_villager:mob/villager/alert49",
+   "scav_villager:mob/villager/alert50",
+   "scav_villager:mob/villager/alert51",
+   "scav_villager:mob/villager/alert52",
+   "scav_villager:mob/villager/alert53",
+   "scav_villager:mob/villager/alert54",
+   "scav_villager:mob/villager/alert55",
+   "scav_villager:mob/villager/alert56",
+   "scav_villager:mob/villager/alert57",
+   "scav_villager:mob/villager/alert58",
+   "scav_villager:mob/villager/alert59",
+   "scav_villager:mob/villager/alert60",
+   "scav_villager:mob/villager/alert61",
+   "scav_villager:mob/villager/alert62",
+   "scav_villager:mob/villager/alert63",
+   "scav_villager:mob/villager/alert64",
+   "scav_villager:mob/villager/alert65",
+   "scav_villager:mob/villager/alert66",
+   "scav_villager:mob/villager/alert67",
+   "scav_villager:mob/villager/alert68",
+   "scav_villager:mob/villager/alert69",
+   "scav_villager:mob/villager/alert70",
+   "scav_villager:mob/villager/alert71",
+   "scav_villager:mob/villager/alert72",
+   "scav_villager:mob/villager/alert73",
+   "scav_villager:mob/villager/alert74",
+   "scav_villager:mob/villager/alert75",
+   "scav_villager:mob/villager/alert76",
+   "scav_villager:mob/villager/alert77"
+  ]
+ },
+ "entity.villager.grenade": {
+  "subtitle": "scav_villager.subtitle.entity.villager.grenade",
+  "sounds": [
+   "scav_villager:mob/villager/grenade1",
+   "scav_villager:mob/villager/grenade2",
+   "scav_villager:mob/villager/grenade3",
+   "scav_villager:mob/villager/grenade4",
+   "scav_villager:mob/villager/grenade5",
+   "scav_villager:mob/villager/grenade6",
+   "scav_villager:mob/villager/grenade7",
+   "scav_villager:mob/villager/grenade8",
+   "scav_villager:mob/villager/grenade9",
+   "scav_villager:mob/villager/grenade10",
+   "scav_villager:mob/villager/grenade11",
+   "scav_villager:mob/villager/grenade12",
+   "scav_villager:mob/villager/grenade13",
+   "scav_villager:mob/villager/grenade14",
+   "scav_villager:mob/villager/grenade15",
+   "scav_villager:mob/villager/grenade16",
+   "scav_villager:mob/villager/grenade17",
+   "scav_villager:mob/villager/grenade18",
+   "scav_villager:mob/villager/grenade19",
+   "scav_villager:mob/villager/grenade20",
+   "scav_villager:mob/villager/grenade21",
+   "scav_villager:mob/villager/grenade22"
+  ]
+ },
+ "entity.pillager.alert": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.alert",
+  "sounds": [
+   "scav_villager:mob/pillager/alert1",
+   "scav_villager:mob/pillager/alert2",
+   "scav_villager:mob/pillager/alert3",
+   "scav_villager:mob/pillager/alert4",
+   "scav_villager:mob/pillager/alert5",
+   "scav_villager:mob/pillager/alert6",
+   "scav_villager:mob/pillager/alert7",
+   "scav_villager:mob/pillager/alert8",
+   "scav_villager:mob/pillager/alert9",
+   "scav_villager:mob/pillager/alert10",
+   "scav_villager:mob/pillager/alert11",
+   "scav_villager:mob/pillager/alert12",
+   "scav_villager:mob/pillager/alert13",
+   "scav_villager:mob/pillager/alert14",
+   "scav_villager:mob/pillager/alert15",
+   "scav_villager:mob/pillager/alert16",
+   "scav_villager:mob/pillager/alert17",
+   "scav_villager:mob/pillager/alert18",
+   "scav_villager:mob/pillager/alert19",
+   "scav_villager:mob/pillager/alert20",
+   "scav_villager:mob/pillager/alert21",
+   "scav_villager:mob/pillager/alert22",
+   "scav_villager:mob/pillager/alert23",
+   "scav_villager:mob/pillager/alert24",
+   "scav_villager:mob/pillager/alert25",
+   "scav_villager:mob/pillager/alert26",
+   "scav_villager:mob/pillager/alert27",
+   "scav_villager:mob/pillager/alert28",
+   "scav_villager:mob/pillager/alert29",
+   "scav_villager:mob/pillager/alert30",
+   "scav_villager:mob/pillager/alert31",
+   "scav_villager:mob/pillager/alert32",
+   "scav_villager:mob/pillager/alert33",
+   "scav_villager:mob/pillager/alert34",
+   "scav_villager:mob/pillager/alert35",
+   "scav_villager:mob/pillager/alert36",
+   "scav_villager:mob/pillager/alert37",
+   "scav_villager:mob/pillager/alert38",
+   "scav_villager:mob/pillager/alert39",
+   "scav_villager:mob/pillager/alert40",
+   "scav_villager:mob/pillager/alert41",
+   "scav_villager:mob/pillager/alert42",
+   "scav_villager:mob/pillager/alert43",
+   "scav_villager:mob/pillager/alert44",
+   "scav_villager:mob/pillager/alert45",
+   "scav_villager:mob/pillager/alert46",
+   "scav_villager:mob/pillager/alert47",
+   "scav_villager:mob/pillager/alert48",
+   "scav_villager:mob/pillager/alert49",
+   "scav_villager:mob/pillager/alert50",
+   "scav_villager:mob/pillager/alert51",
+   "scav_villager:mob/pillager/alert52",
+   "scav_villager:mob/pillager/alert53",
+   "scav_villager:mob/pillager/alert54",
+   "scav_villager:mob/pillager/alert55",
+   "scav_villager:mob/pillager/alert56",
+   "scav_villager:mob/pillager/alert57",
+   "scav_villager:mob/pillager/alert58",
+   "scav_villager:mob/pillager/alert59",
+   "scav_villager:mob/pillager/alert60",
+   "scav_villager:mob/pillager/alert61",
+   "scav_villager:mob/pillager/alert62",
+   "scav_villager:mob/pillager/alert63",
+   "scav_villager:mob/pillager/alert64",
+   "scav_villager:mob/pillager/alert65",
+   "scav_villager:mob/pillager/alert66",
+   "scav_villager:mob/pillager/alert67",
+   "scav_villager:mob/pillager/alert68",
+   "scav_villager:mob/pillager/alert69",
+   "scav_villager:mob/pillager/alert70",
+   "scav_villager:mob/pillager/alert71",
+   "scav_villager:mob/pillager/alert72",
+   "scav_villager:mob/pillager/alert73",
+   "scav_villager:mob/pillager/alert74",
+   "scav_villager:mob/pillager/alert75",
+   "scav_villager:mob/pillager/alert76",
+   "scav_villager:mob/pillager/alert77"
+  ]
+ },
+ "entity.pillager.fight": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight1",
+   "scav_villager:mob/pillager/fight2",
+   "scav_villager:mob/pillager/fight3",
+   "scav_villager:mob/pillager/fight4",
+   "scav_villager:mob/pillager/fight5",
+   "scav_villager:mob/pillager/fight6",
+   "scav_villager:mob/pillager/fight7",
+   "scav_villager:mob/pillager/fight8",
+   "scav_villager:mob/pillager/fight9",
+   "scav_villager:mob/pillager/fight10",
+   "scav_villager:mob/pillager/fight11",
+   "scav_villager:mob/pillager/fight12",
+   "scav_villager:mob/pillager/fight13",
+   "scav_villager:mob/pillager/fight14",
+   "scav_villager:mob/pillager/fight15",
+   "scav_villager:mob/pillager/fight16",
+   "scav_villager:mob/pillager/fight17",
+   "scav_villager:mob/pillager/fight18",
+   "scav_villager:mob/pillager/fight19",
+   "scav_villager:mob/pillager/fight20",
+   "scav_villager:mob/pillager/fight21",
+   "scav_villager:mob/pillager/fight22",
+   "scav_villager:mob/pillager/fight23",
+   "scav_villager:mob/pillager/fight24",
+   "scav_villager:mob/pillager/fight25",
+   "scav_villager:mob/pillager/fight26",
+   "scav_villager:mob/pillager/fight27",
+   "scav_villager:mob/pillager/fight28",
+   "scav_villager:mob/pillager/fight29",
+   "scav_villager:mob/pillager/fight30",
+   "scav_villager:mob/pillager/fight31"
+  ]
+ },
+ "entity.pillager.fight1": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight1"
+  ]
+ },
+ "entity.pillager.fight2": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight2"
+  ]
+ },
+ "entity.pillager.fight3": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight3"
+  ]
+ },
+ "entity.pillager.fight4": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight4"
+  ]
+ },
+ "entity.pillager.fight5": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight5"
+  ]
+ },
+ "entity.pillager.fight6": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight6"
+  ]
+ },
+ "entity.pillager.fight7": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight7"
+  ]
+ },
+ "entity.pillager.fight8": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight8"
+  ]
+ },
+ "entity.pillager.fight9": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight9"
+  ]
+ },
+ "entity.pillager.fight10": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight10"
+  ]
+ },
+ "entity.pillager.fight11": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight11"
+  ]
+ },
+ "entity.pillager.fight12": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight12"
+  ]
+ },
+ "entity.pillager.fight13": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight13"
+  ]
+ },
+ "entity.pillager.fight14": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight14"
+  ]
+ },
+ "entity.pillager.fight15": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight15"
+  ]
+ },
+ "entity.pillager.fight16": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight16"
+  ]
+ },
+ "entity.pillager.fight17": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight17"
+  ]
+ },
+ "entity.pillager.fight18": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight18"
+  ]
+ },
+ "entity.pillager.fight19": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight19"
+  ]
+ },
+ "entity.pillager.fight20": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight20"
+  ]
+ },
+ "entity.pillager.fight21": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight21"
+  ]
+ },
+ "entity.pillager.fight22": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight22"
+  ]
+ },
+ "entity.pillager.fight23": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight23"
+  ]
+ },
+ "entity.pillager.fight24": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight24"
+  ]
+ },
+ "entity.pillager.fight25": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight25"
+  ]
+ },
+ "entity.pillager.fight26": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight26"
+  ]
+ },
+ "entity.pillager.fight27": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight27"
+  ]
+ },
+ "entity.pillager.fight28": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight28"
+  ]
+ },
+ "entity.pillager.fight29": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight29"
+  ]
+ },
+ "entity.pillager.fight30": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight30"
+  ]
+ },
+ "entity.pillager.fight31": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.fight",
+  "sounds": [
+   "scav_villager:mob/pillager/fight31"
+  ]
+ },
+ "entity.pillager.clear": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.clear",
+  "sounds": [
+   "scav_villager:mob/pillager/clear1",
+   "scav_villager:mob/pillager/clear2",
+   "scav_villager:mob/pillager/clear3",
+   "scav_villager:mob/pillager/clear4",
+   "scav_villager:mob/pillager/clear5",
+   "scav_villager:mob/pillager/clear6",
+   "scav_villager:mob/pillager/clear7",
+   "scav_villager:mob/pillager/clear8",
+   "scav_villager:mob/pillager/clear9",
+   "scav_villager:mob/pillager/clear10",
+   "scav_villager:mob/pillager/clear11",
+   "scav_villager:mob/pillager/clear12",
+   "scav_villager:mob/pillager/clear13",
+   "scav_villager:mob/pillager/clear14",
+   "scav_villager:mob/pillager/clear15",
+   "scav_villager:mob/pillager/clear16",
+   "scav_villager:mob/pillager/clear17",
+   "scav_villager:mob/pillager/clear18"
+  ]
+ },
+ "entity.pillager.grenade": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.grenade",
+  "sounds": [
+   "scav_villager:mob/pillager/grenade1",
+   "scav_villager:mob/pillager/grenade2",
+   "scav_villager:mob/pillager/grenade3",
+   "scav_villager:mob/pillager/grenade4",
+   "scav_villager:mob/pillager/grenade5",
+   "scav_villager:mob/pillager/grenade6",
+   "scav_villager:mob/pillager/grenade7",
+   "scav_villager:mob/pillager/grenade8",
+   "scav_villager:mob/pillager/grenade9",
+   "scav_villager:mob/pillager/grenade10",
+   "scav_villager:mob/pillager/grenade11",
+   "scav_villager:mob/pillager/grenade12",
+   "scav_villager:mob/pillager/grenade13",
+   "scav_villager:mob/pillager/grenade14",
+   "scav_villager:mob/pillager/grenade15",
+   "scav_villager:mob/pillager/grenade16",
+   "scav_villager:mob/pillager/grenade17",
+   "scav_villager:mob/pillager/grenade18",
+   "scav_villager:mob/pillager/grenade19",
+   "scav_villager:mob/pillager/grenade20",
+   "scav_villager:mob/pillager/grenade21",
+   "scav_villager:mob/pillager/grenade22"
+  ]
+ },
+ "entity.villager.ambient": {
+  "sounds": [
+   "scav_villager:mob/villager/idle1",
+   "scav_villager:mob/villager/idle2",
+   "scav_villager:mob/villager/idle3",
+   "scav_villager:mob/villager/idle4",
+   "scav_villager:mob/villager/idle5",
+   "scav_villager:mob/villager/idle6",
+   "scav_villager:mob/villager/idle7",
+   "scav_villager:mob/villager/idle8",
+   "scav_villager:mob/villager/idle9",
+   "scav_villager:mob/villager/idle10",
+   "scav_villager:mob/villager/idle11",
+   "scav_villager:mob/villager/idle12",
+   "scav_villager:mob/villager/idle13",
+   "scav_villager:mob/villager/idle14",
+   "scav_villager:mob/villager/idle15",
+   "scav_villager:mob/villager/idle16",
+   "scav_villager:mob/villager/idle17",
+   "scav_villager:mob/villager/idle18",
+   "scav_villager:mob/villager/idle19",
+   "scav_villager:mob/villager/idle20",
+   "scav_villager:mob/villager/idle21",
+   "scav_villager:mob/villager/idle22",
+   "scav_villager:mob/villager/idle23",
+   "scav_villager:mob/villager/idle24",
+   "scav_villager:mob/villager/idle25",
+   "scav_villager:mob/villager/idle26",
+   "scav_villager:mob/villager/idle27",
+   "scav_villager:mob/villager/idle28",
+   "scav_villager:mob/villager/idle29",
+   "scav_villager:mob/villager/idle30",
+   "scav_villager:mob/villager/idle31",
+   "scav_villager:mob/villager/idle32",
+   "scav_villager:mob/villager/idle33",
+   "scav_villager:mob/villager/idle34",
+   "scav_villager:mob/villager/idle35",
+   "scav_villager:mob/villager/idle36",
+   "scav_villager:mob/villager/idle37",
+   "scav_villager:mob/villager/idle38",
+   "scav_villager:mob/villager/idle39",
+   "scav_villager:mob/villager/idle40",
+   "scav_villager:mob/villager/idle41",
+   "scav_villager:mob/villager/idle42",
+   "scav_villager:mob/villager/idle43",
+   "scav_villager:mob/villager/idle44",
+   "scav_villager:mob/villager/idle45",
+   "scav_villager:mob/villager/idle46",
+   "scav_villager:mob/villager/idle47",
+   "scav_villager:mob/villager/idle48",
+   "scav_villager:mob/villager/idle49",
+   "scav_villager:mob/villager/idle50",
+   "scav_villager:mob/villager/idle51",
+   "scav_villager:mob/villager/idle52",
+   "scav_villager:mob/villager/idle53",
+   "scav_villager:mob/villager/idle54",
+   "scav_villager:mob/villager/idle55",
+   "scav_villager:mob/villager/idle56",
+   "scav_villager:mob/villager/idle57",
+   "scav_villager:mob/villager/idle58",
+   "scav_villager:mob/villager/idle59",
+   "scav_villager:mob/villager/idle60",
+   "scav_villager:mob/villager/idle61",
+   "scav_villager:mob/villager/idle62",
+   "scav_villager:mob/villager/idle63",
+   "scav_villager:mob/villager/idle64",
+   "scav_villager:mob/villager/idle65",
+   "scav_villager:mob/villager/idle66",
+   "scav_villager:mob/villager/idle67",
+   "scav_villager:mob/villager/idle68",
+   "scav_villager:mob/villager/idle69",
+   "scav_villager:mob/villager/idle70",
+   "scav_villager:mob/villager/idle71",
+   "scav_villager:mob/villager/idle72",
+   "scav_villager:mob/villager/idle73",
+   "scav_villager:mob/villager/idle74",
+   "scav_villager:mob/villager/idle75",
+   "scav_villager:mob/villager/idle76",
+   "scav_villager:mob/villager/idle77",
+   "scav_villager:mob/villager/idle78",
+   "scav_villager:mob/villager/idle79",
+   "scav_villager:mob/villager/idle80",
+   "scav_villager:mob/villager/idle81",
+   "scav_villager:mob/villager/idle82",
+   "scav_villager:mob/villager/idle83",
+   "scav_villager:mob/villager/idle84",
+   "scav_villager:mob/villager/idle85",
+   "scav_villager:mob/villager/idle86",
+   "scav_villager:mob/villager/idle87",
+   "scav_villager:mob/villager/idle88",
+   "scav_villager:mob/villager/idle89",
+   "scav_villager:mob/villager/idle90",
+   "scav_villager:mob/villager/idle91",
+   "scav_villager:mob/villager/idle92",
+   "scav_villager:mob/villager/idle93",
+   "scav_villager:mob/villager/idle94",
+   "scav_villager:mob/villager/idle95",
+   "scav_villager:mob/villager/idle96",
+   "scav_villager:mob/villager/idle97",
+   "scav_villager:mob/villager/idle98",
+   "scav_villager:mob/villager/idle99",
+   "scav_villager:mob/villager/idle100",
+   "scav_villager:mob/villager/idle101",
+   "scav_villager:mob/villager/idle102",
+   "scav_villager:mob/villager/idle103",
+   "scav_villager:mob/villager/idle104",
+   "scav_villager:mob/villager/idle105",
+   "scav_villager:mob/villager/idle106",
+   "scav_villager:mob/villager/idle107",
+   "scav_villager:mob/villager/idle108",
+   "scav_villager:mob/villager/idle109",
+   "scav_villager:mob/villager/idle110",
+   "scav_villager:mob/villager/idle111",
+   "scav_villager:mob/villager/idle112",
+   "scav_villager:mob/villager/idle113",
+   "scav_villager:mob/villager/idle114",
+   "scav_villager:mob/villager/idle115",
+   "scav_villager:mob/villager/idle116",
+   "scav_villager:mob/villager/idle117",
+   "scav_villager:mob/villager/idle118",
+   "scav_villager:mob/villager/idle119",
+   "scav_villager:mob/villager/idle120",
+   "scav_villager:mob/villager/idle121",
+   "scav_villager:mob/villager/idle122",
+   "scav_villager:mob/villager/idle123",
+   "scav_villager:mob/villager/idle124",
+   "scav_villager:mob/villager/idle125",
+   "scav_villager:mob/villager/idle126",
+   "scav_villager:mob/villager/idle127",
+   "scav_villager:mob/villager/idle128",
+   "scav_villager:mob/villager/idle129",
+   "scav_villager:mob/villager/idle130",
+   "scav_villager:mob/villager/idle131",
+   "scav_villager:mob/villager/idle132",
+   "scav_villager:mob/villager/idle133",
+   "scav_villager:mob/villager/idle134",
+   "scav_villager:mob/villager/idle135",
+   "scav_villager:mob/villager/idle136",
+   "scav_villager:mob/villager/idle137",
+   "scav_villager:mob/villager/idle138",
+   "scav_villager:mob/villager/idle139",
+   "scav_villager:mob/villager/idle140",
+   "scav_villager:mob/villager/idle141",
+   "scav_villager:mob/villager/idle142",
+   "scav_villager:mob/villager/idle143",
+   "scav_villager:mob/villager/idle144",
+   "scav_villager:mob/villager/idle145",
+   "scav_villager:mob/villager/idle146",
+   "scav_villager:mob/villager/idle147",
+   "scav_villager:mob/villager/idle148",
+   "scav_villager:mob/villager/idle149",
+   "scav_villager:mob/villager/idle150",
+   "scav_villager:mob/villager/idle151",
+   "scav_villager:mob/villager/idle152",
+   "scav_villager:mob/villager/idle153",
+   "scav_villager:mob/villager/idle154",
+   "scav_villager:mob/villager/idle155",
+   "scav_villager:mob/villager/idle156",
+   "scav_villager:mob/villager/idle157",
+   "scav_villager:mob/villager/idle158",
+   "scav_villager:mob/villager/idle159",
+   "scav_villager:mob/villager/idle160",
+   "scav_villager:mob/villager/idle161",
+   "scav_villager:mob/villager/idle162",
+   "scav_villager:mob/villager/idle163",
+   "scav_villager:mob/villager/idle164",
+   "scav_villager:mob/villager/idle165",
+   "scav_villager:mob/villager/idle166",
+   "scav_villager:mob/villager/idle167",
+   "scav_villager:mob/villager/idle168",
+   "scav_villager:mob/villager/idle169",
+   "scav_villager:mob/villager/idle170",
+   "scav_villager:mob/villager/idle171",
+   "scav_villager:mob/villager/idle172",
+   "scav_villager:mob/villager/idle173",
+   "scav_villager:mob/villager/idle174",
+   "scav_villager:mob/villager/idle175"
+  ]
+ },
+ "entity.villager.hurt": {
+  "sounds": [
+   "scav_villager:mob/pillager/hurt1",
+   "scav_villager:mob/pillager/hurt2",
+   "scav_villager:mob/pillager/hurt3",
+   "scav_villager:mob/pillager/hurt4",
+   "scav_villager:mob/pillager/hurt5",
+   "scav_villager:mob/pillager/hurt6",
+   "scav_villager:mob/pillager/hurt7",
+   "scav_villager:mob/pillager/hurt8",
+   "scav_villager:mob/pillager/hurt9",
+   "scav_villager:mob/pillager/hurt10",
+   "scav_villager:mob/pillager/hurt11",
+   "scav_villager:mob/pillager/hurt12",
+   "scav_villager:mob/pillager/hurt13",
+   "scav_villager:mob/pillager/hurt14",
+   "scav_villager:mob/pillager/hurt15",
+   "scav_villager:mob/pillager/hurt16",
+   "scav_villager:mob/pillager/hurt17",
+   "scav_villager:mob/pillager/hurt18",
+   "scav_villager:mob/pillager/hurt19",
+   "scav_villager:mob/pillager/hurt20",
+   "scav_villager:mob/pillager/hurt21",
+   "scav_villager:mob/pillager/hurt22",
+   "scav_villager:mob/pillager/hurt23",
+   "scav_villager:mob/pillager/hurt24",
+   "scav_villager:mob/pillager/hurt25"
+  ]
+ },
+ "entity.villager.death": {
+  "sounds": [
+   "scav_villager:mob/villager/death1",
+   "scav_villager:mob/villager/death2",
+   "scav_villager:mob/villager/death3",
+   "scav_villager:mob/villager/death4",
+   "scav_villager:mob/villager/death5",
+   "scav_villager:mob/villager/death6",
+   "scav_villager:mob/villager/death7",
+   "scav_villager:mob/villager/death8",
+   "scav_villager:mob/villager/death9",
+   "scav_villager:mob/villager/death10",
+   "scav_villager:mob/villager/death11"
+  ]
+ },
+ "entity.villager.yes": {
+  "sounds": [
+   "scav_villager:mob/villager/yes1",
+   "scav_villager:mob/villager/yes2",
+   "scav_villager:mob/villager/yes3",
+   "scav_villager:mob/villager/yes4",
+   "scav_villager:mob/villager/yes5",
+   "scav_villager:mob/villager/yes6",
+   "scav_villager:mob/villager/yes7",
+   "scav_villager:mob/villager/yes8",
+   "scav_villager:mob/villager/yes9",
+   "scav_villager:mob/villager/yes10",
+   "scav_villager:mob/villager/yes11",
+   "scav_villager:mob/villager/yes12",
+   "scav_villager:mob/villager/yes13",
+   "scav_villager:mob/villager/yes14",
+   "scav_villager:mob/villager/yes15",
+   "scav_villager:mob/villager/yes16",
+   "scav_villager:mob/villager/yes17",
+   "scav_villager:mob/villager/yes18",
+   "scav_villager:mob/villager/yes19",
+   "scav_villager:mob/villager/yes20",
+   "scav_villager:mob/villager/yes21",
+   "scav_villager:mob/villager/yes22",
+   "scav_villager:mob/villager/yes23",
+   "scav_villager:mob/villager/yes24",
+   "scav_villager:mob/villager/yes25",
+   "scav_villager:mob/villager/yes26",
+   "scav_villager:mob/villager/yes27",
+   "scav_villager:mob/villager/yes28",
+   "scav_villager:mob/villager/yes29",
+   "scav_villager:mob/villager/yes30",
+   "scav_villager:mob/villager/yes31",
+   "scav_villager:mob/villager/yes32",
+   "scav_villager:mob/villager/yes33"
+  ]
+ },
+ "entity.villager.no": {
+  "sounds": [
+   "scav_villager:mob/villager/no1",
+   "scav_villager:mob/villager/no2",
+   "scav_villager:mob/villager/no3",
+   "scav_villager:mob/villager/no4",
+   "scav_villager:mob/villager/no5",
+   "scav_villager:mob/villager/no6",
+   "scav_villager:mob/villager/no7",
+   "scav_villager:mob/villager/no8",
+   "scav_villager:mob/villager/no9",
+   "scav_villager:mob/villager/no10",
+   "scav_villager:mob/villager/no11",
+   "scav_villager:mob/villager/no12",
+   "scav_villager:mob/villager/no13",
+   "scav_villager:mob/villager/no14",
+   "scav_villager:mob/villager/no15",
+   "scav_villager:mob/villager/no16",
+   "scav_villager:mob/villager/no17",
+   "scav_villager:mob/villager/no18",
+   "scav_villager:mob/villager/no19",
+   "scav_villager:mob/villager/no20",
+   "scav_villager:mob/villager/no21",
+   "scav_villager:mob/villager/no22",
+   "scav_villager:mob/villager/no23",
+   "scav_villager:mob/villager/no24",
+   "scav_villager:mob/villager/no25",
+   "scav_villager:mob/villager/no26",
+   "scav_villager:mob/villager/no27",
+   "scav_villager:mob/villager/no28",
+   "scav_villager:mob/villager/no29",
+   "scav_villager:mob/villager/no30",
+   "scav_villager:mob/villager/no31",
+   "scav_villager:mob/villager/no32",
+   "scav_villager:mob/villager/no33",
+   "scav_villager:mob/villager/no34",
+   "scav_villager:mob/villager/no35",
+   "scav_villager:mob/villager/no36",
+   "scav_villager:mob/villager/no37",
+   "scav_villager:mob/villager/no38"
+  ]
+ },
+ "ui.join": {
+  "sounds": [
+   "scav_villager:ui/join"
+  ]
+ },
+ "ui.recipe": {
+  "sounds": [
+   "scav_villager:ui/recipe"
+  ]
+ },
+ "entity.villager.witness": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness1",
+   "scav_villager:mob/villager/witness2",
+   "scav_villager:mob/villager/witness3",
+   "scav_villager:mob/villager/witness4",
+   "scav_villager:mob/villager/witness5",
+   "scav_villager:mob/villager/witness6",
+   "scav_villager:mob/villager/witness7",
+   "scav_villager:mob/villager/witness8",
+   "scav_villager:mob/villager/witness9",
+   "scav_villager:mob/villager/witness10",
+   "scav_villager:mob/villager/witness11",
+   "scav_villager:mob/villager/witness12",
+   "scav_villager:mob/villager/witness13",
+   "scav_villager:mob/villager/witness14",
+   "scav_villager:mob/villager/witness15",
+   "scav_villager:mob/villager/witness16",
+   "scav_villager:mob/villager/witness17",
+   "scav_villager:mob/villager/witness18",
+   "scav_villager:mob/villager/witness19",
+   "scav_villager:mob/villager/witness20"
+  ]
+ },
+ "entity.pillager.witness": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness1",
+   "scav_villager:mob/pillager/witness2",
+   "scav_villager:mob/pillager/witness3",
+   "scav_villager:mob/pillager/witness4",
+   "scav_villager:mob/pillager/witness5",
+   "scav_villager:mob/pillager/witness6",
+   "scav_villager:mob/pillager/witness7",
+   "scav_villager:mob/pillager/witness8",
+   "scav_villager:mob/pillager/witness9",
+   "scav_villager:mob/pillager/witness10",
+   "scav_villager:mob/pillager/witness11",
+   "scav_villager:mob/pillager/witness12",
+   "scav_villager:mob/pillager/witness13",
+   "scav_villager:mob/pillager/witness14",
+   "scav_villager:mob/pillager/witness15",
+   "scav_villager:mob/pillager/witness16",
+   "scav_villager:mob/pillager/witness17",
+   "scav_villager:mob/pillager/witness18",
+   "scav_villager:mob/pillager/witness19",
+   "scav_villager:mob/pillager/witness20"
+  ]
+ },
+ "entity.villager.witness1": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness1"
+  ]
+ },
+ "entity.villager.witness2": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness2"
+  ]
+ },
+ "entity.villager.witness3": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness3"
+  ]
+ },
+ "entity.villager.witness4": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness4"
+  ]
+ },
+ "entity.villager.witness5": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness5"
+  ]
+ },
+ "entity.villager.witness6": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness6"
+  ]
+ },
+ "entity.villager.witness7": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness7"
+  ]
+ },
+ "entity.villager.witness8": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness8"
+  ]
+ },
+ "entity.villager.witness9": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness9"
+  ]
+ },
+ "entity.villager.witness10": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness10"
+  ]
+ },
+ "entity.villager.witness11": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness11"
+  ]
+ },
+ "entity.villager.witness12": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness12"
+  ]
+ },
+ "entity.villager.witness13": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness13"
+  ]
+ },
+ "entity.villager.witness14": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness14"
+  ]
+ },
+ "entity.villager.witness15": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness15"
+  ]
+ },
+ "entity.villager.witness16": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness16"
+  ]
+ },
+ "entity.villager.witness17": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness17"
+  ]
+ },
+ "entity.villager.witness18": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness18"
+  ]
+ },
+ "entity.villager.witness19": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness19"
+  ]
+ },
+ "entity.villager.witness20": {
+  "subtitle": "scav_villager.subtitle.entity.villager.witness",
+  "sounds": [
+   "scav_villager:mob/villager/witness20"
+  ]
+ },
+ "entity.pillager.witness1": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness1"
+  ]
+ },
+ "entity.pillager.witness2": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness2"
+  ]
+ },
+ "entity.pillager.witness3": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness3"
+  ]
+ },
+ "entity.pillager.witness4": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness4"
+  ]
+ },
+ "entity.pillager.witness5": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness5"
+  ]
+ },
+ "entity.pillager.witness6": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness6"
+  ]
+ },
+ "entity.pillager.witness7": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness7"
+  ]
+ },
+ "entity.pillager.witness8": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness8"
+  ]
+ },
+ "entity.pillager.witness9": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness9"
+  ]
+ },
+ "entity.pillager.witness10": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness10"
+  ]
+ },
+ "entity.pillager.witness11": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness11"
+  ]
+ },
+ "entity.pillager.witness12": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness12"
+  ]
+ },
+ "entity.pillager.witness13": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness13"
+  ]
+ },
+ "entity.pillager.witness14": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness14"
+  ]
+ },
+ "entity.pillager.witness15": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness15"
+  ]
+ },
+ "entity.pillager.witness16": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness16"
+  ]
+ },
+ "entity.pillager.witness17": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness17"
+  ]
+ },
+ "entity.pillager.witness18": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness18"
+  ]
+ },
+ "entity.pillager.witness19": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness19"
+  ]
+ },
+ "entity.pillager.witness20": {
+  "subtitle": "scav_villager.subtitle.entity.pillager.witness",
+  "sounds": [
+   "scav_villager:mob/pillager/witness20"
+  ]
+ },
+ "ui.player_death": {
+  "sounds": [
+   "scav_villager:ui/player_death"
+  ]
+ },
+ "ui.achievement_common": {
+  "sounds": [
+   "scav_villager:ui/achievement_common"
+  ]
+ },
+ "ui.achievement_challenge": {
+  "sounds": [
+   "scav_villager:ui/achievement_challenge"
+  ]
+ },
+ "ui.error_228": {
+  "sounds": [
+   "scav_villager:ui/228"
+  ]
+ },
+ "entity.villager.haggle": {
+  "sounds": [
+   "scav_villager:mob/villager/haggle1",
+   "scav_villager:mob/villager/haggle2",
+   "scav_villager:mob/villager/haggle3",
+   "scav_villager:mob/villager/haggle4",
+   "scav_villager:mob/villager/haggle5",
+   "scav_villager:mob/villager/haggle6",
+   "scav_villager:mob/villager/haggle7",
+   "scav_villager:mob/villager/haggle8",
+   "scav_villager:mob/villager/haggle9",
+   "scav_villager:mob/villager/haggle10",
+   "scav_villager:mob/villager/haggle11",
+   "scav_villager:mob/villager/haggle12",
+   "scav_villager:mob/villager/haggle13",
+   "scav_villager:mob/villager/haggle14",
+   "scav_villager:mob/villager/haggle15",
+   "scav_villager:mob/villager/haggle16",
+   "scav_villager:mob/villager/haggle17",
+   "scav_villager:mob/villager/haggle18",
+   "scav_villager:mob/villager/haggle19",
+   "scav_villager:mob/villager/haggle20",
+   "scav_villager:mob/villager/haggle21",
+   "scav_villager:mob/villager/haggle22",
+   "scav_villager:mob/villager/haggle23",
+   "scav_villager:mob/villager/haggle24",
+   "scav_villager:mob/villager/haggle25"
+  ]
+ }
+}

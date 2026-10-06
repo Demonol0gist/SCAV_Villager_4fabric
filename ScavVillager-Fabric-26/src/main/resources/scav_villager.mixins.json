@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.arkit.scavvillager.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ContainerScreenMixin",
+    "ClientPacketListenerMixin",
+    "MinecraftMixin",
+    "SoundManagerMixin",
+    "ToastManagerMixin",
+    "AdvancementToastMixin",
+    "SoundEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

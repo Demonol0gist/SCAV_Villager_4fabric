@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "scav_villager",
+  "version": "${version}",
+  "name": "老乡村民 Scav Villager",
+  "description": "村民 / 掠夺者语音系统（Fabric 客户端版）：语音绑定实体跟随移动、察觉喊话、战斗喊话、TNT 恐慌、目击死亡、UI 音效与 228 彩蛋。纯客户端，服务器和其他玩家无需安装。移植自 Arkit 的 Forge 模组。",
+  "authors": [
+    "Arkit（原作者）",
+    "Silver___Wolf（Fabric 客户端移植）"
+  ],
+  "license": "All Rights Reserved",
+  "icon": "assets/scav_villager/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.arkit.scavvillager.ScavVillagerClient"
+    ]
+  },
+  "mixins": [
+    "scav_villager.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21.5 <1.21.6",
+    "java": ">=21"
+  }
+}

@@ -1,0 +1,16 @@
+# Gradle / 构建产物
+build/
+.gradle/
+run/
+out/
+
+# 成品与工具链（发布用 jar 请走 Releases，不进仓库）
+成品/
+_toolchain/
+*.zip
+*.log
+
+# 编辑器
+.idea/
+*.iml
+.vscode/
