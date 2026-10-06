@@ -94,7 +94,14 @@ public class Error228Screen extends Screen {
         String line2 = this.glitchCode.toUpperCase();
         graphics.drawString(this.font, line1, this.width / 2 - this.font.width(line1) / 2, top + 22, COLOR_TITLE, false);
         graphics.drawString(this.font, line2, this.width / 2 - this.font.width(line2) / 2, top + 42, COLOR_TEXT, false);
-        super.render(graphics, mouseX, mouseY, partialTick);
+        // 注意：这里**不能**调 super.render(...) —— 原版 Screen#render 的第一件事就是 renderBackground()，
+        // 会把（被游戏模糊过的）世界和暗色渐变重新盖到我们上面，界面就又糊了（按钮因为是随后画的所以是清楚的）。
+        // 所以自己把控件画一遍即可（Screen.renderables 是 private，走公开的 children()）。
+        for (net.minecraft.client.gui.components.events.GuiEventListener child : this.children()) {
+            if (child instanceof net.minecraft.client.gui.components.Renderable renderable) {
+                renderable.render(graphics, mouseX, mouseY, partialTick);
+            }
+        }
     }
 
     @Override
