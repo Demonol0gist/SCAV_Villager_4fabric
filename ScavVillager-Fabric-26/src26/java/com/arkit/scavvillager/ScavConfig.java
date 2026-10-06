@@ -24,6 +24,11 @@ public class ScavConfig {
     public boolean enableGuard = true;
     public boolean verboseLog = false;
 
+    /** 最多让离玩家最近的几只村民出声（0 = 不限；只影响新语音，已在播的不会掐断）。 */
+    public int maxVillagerVoices = 0;
+    /** 同上，掠夺者。 */
+    public int maxPillagerVoices = 0;
+
     /** 语音是否绑定实体播放（跟随移动）。关掉就保持原版的固定位置播放。 */
     public boolean followEntities = true;
     public double volume = 1.0;                 // 0.0 ~ 2.0，1.0 = 原音量

@@ -68,6 +68,12 @@ public final class VoiceGovernor {
         if (!cfg.enableMod || entity == null || entity.isRemoved()) {
             return false;
         }
+        // 出声名额：只让离玩家最近的 N 只出声（0 = 不限）。不放给原版 → 彻底安静
+        if (!VoiceLimiter.allows(entity, cfg)) {
+            cfg.log("超出出声名额，跳过: " + Compat.soundId(event).getPath()
+                    + "（" + entity.getName().getString() + "）");
+            return false;
+        }
         if (isPlaying(ACTIVE.get(entity.getUUID()))) {
             if (kind == VoiceKind.DEATH || kind == VoiceKind.TRADE) {
                 // 死亡 / 交易成交例外：特批打断——掐掉当前语音、丢掉排队的，立刻播

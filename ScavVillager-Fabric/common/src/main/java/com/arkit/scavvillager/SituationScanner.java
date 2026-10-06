@@ -40,6 +40,7 @@ public final class SituationScanner {
         DEATH_SEEN.clear();
         HURT_AT.clear();
         tick = 0;
+        VoiceLimiter.clear();
     }
 
     /**
@@ -67,6 +68,7 @@ public final class SituationScanner {
             return;
         }
         List<PrimedTnt> tnts = level.getEntitiesOfClass(PrimedTnt.class, box);
+        VoiceLimiter.refresh(mobs, mc.player, cfg);      // 顺手刷新出声名额名单
 
         // 先把本轮新出现的死亡挑出来，供"目击"判定使用
         List<LivingEntity> deaths = new ArrayList<>();
