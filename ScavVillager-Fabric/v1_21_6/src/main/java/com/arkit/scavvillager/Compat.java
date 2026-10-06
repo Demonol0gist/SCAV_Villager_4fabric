@@ -28,6 +28,8 @@ public final class Compat {
 
     /** 退出当前世界并显示指定界面。 */
     public static void quitWorld(Minecraft mc, Screen screen) {
+        // 这个版本 ClientLevel.disconnect() 改了签名，用原版的"保存并退出"；
+        // 界面切换由 Error228Screen 里的轮询负责（等世界真的卸载完再切标题界面）
         mc.disconnectWithSavingScreen();
     }
 

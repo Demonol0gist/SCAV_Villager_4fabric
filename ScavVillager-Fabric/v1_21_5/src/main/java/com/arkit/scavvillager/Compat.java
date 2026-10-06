@@ -26,9 +26,16 @@ public final class Compat {
         return new GenericMessageScreen(message);
     }
 
-    /** 退出当前世界并显示指定界面。 */
+    /**
+     * 退出当前世界并显示指定界面。
+     * 用"断开 + 同步清空世界"（原版保存并退出的写法）；不要用 async 的 disconnect(Screen)，
+     * 它卸载完成后会把界面覆盖回去，导致卡在退出界面。
+     */
     public static void quitWorld(Minecraft mc, Screen screen) {
-        mc.disconnect(screen);
+        if (mc.level != null) {
+            mc.level.disconnect();
+        }
+        mc.clearClientLevel(screen);
     }
 
     /** 弹一条提示框（1.21.2 起 ToastComponent 改名 ToastManager，getToasts() → getToastManager()）。 */

@@ -16,7 +16,7 @@ public class Error228Screen extends Screen {
     private static final int PANEL_WIDTH = 280;
     private static final int PANEL_HEIGHT = 100;
     private static final int COLOR_PANEL = 0xFF0A0A0A;
-    private static final int COLOR_BACKDROP = 0xB0101010;
+    private static final int COLOR_BACKDROP = 0xFF101010;   // 不透明：半透明会把外面（模糊过的）世界透出来
     private static final int COLOR_TITLE = 0xFFC6C6C6;
     private static final int COLOR_TEXT = 0xFFC0C0BC;
     private static final int COLOR_BUTTON = 0xFF828282;
@@ -60,7 +60,24 @@ public class Error228Screen extends Screen {
             return;
         }
         Compat.quitWorld(this.minecraft, Compat.quittingScreen(Component.literal(QUITTING)));
-        Scheduler.after(25, () -> this.minecraft.setScreen(new TitleScreen()));
+        waitForLevelGone(0);
+    }
+
+    /**
+     * 等世界真的卸载完再显示标题界面。
+     * 不能只等固定 tick 数：卸载流程结束得更晚会把界面覆盖回去，结果卡在"正在退出世界"。
+     */
+    private void waitForLevelGone(int tries) {
+        Scheduler.after(2, () -> {
+            if (this.minecraft == null) {
+                return;
+            }
+            if (this.minecraft.level != null && tries < 100) {
+                waitForLevelGone(tries + 1);
+            } else {
+                Compat.setScreen(this.minecraft, new TitleScreen());
+            }
+        });
     }
 
     @Override
