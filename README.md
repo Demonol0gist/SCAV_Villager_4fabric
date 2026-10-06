@@ -1,6 +1,6 @@
 # SCAV_Villager_4fabric
 
-《老乡村民》（Scav Villager）的 **Fabric 客户端**移植 —— 由 Arkit 的 Forge 模组改写而来。
+Scav Villager的 **Fabric 客户端**移植 —— 由 Arkit 的 Forge 模组改写而来。
 
 - **纯客户端**：服务器（含原版服务器）和其他玩家都不需要安装
 - **语音绑定实体**：村民/掠夺者的语音跟着生物走，而不是钉在触发点
@@ -24,6 +24,5 @@
 
 ## 版权
 
-素材与整体设计来自 **Arkit** 的《老乡村民》Forge 模组（license: **All Rights Reserved**）。
-Fabric 客户端移植：**Silver___Wolf**。
-本仓库为移植工作留存，**公开分发前请先取得原作者同意**。
+素材与整体设计来自 **Arkit** 的《Scav_villager》Forge 模组。
+Fabric 客户端移植：**Demonologist**。
