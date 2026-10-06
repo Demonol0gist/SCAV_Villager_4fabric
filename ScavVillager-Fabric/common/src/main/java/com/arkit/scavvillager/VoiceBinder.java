@@ -64,7 +64,7 @@ public final class VoiceBinder {
      */
     public static boolean tryRebind(SoundInstance instance, int delayTicks) {
         ScavConfig cfg = ScavConfig.get();
-        if (!cfg.enableMod || !cfg.followEntities || instance instanceof VoiceSound) {
+        if (instance instanceof VoiceSound) {
             return false;
         }
         ResourceLocation loc = instance.getLocation();
@@ -74,6 +74,17 @@ public final class VoiceBinder {
         Rule rule = ruleOf(loc.getPath());
         if (rule == null) {
             return false;
+        }
+        // 分类开关 / 总开关关掉时，直接把这**条**语音吃掉（连原版那条也不放行 → 彻底安静）。
+        // 不能只 return false：那样原版会照常播放，听起来就像开关根本没生效。
+        boolean villagerVoice = rule.type() == Villager.class;
+        if (!cfg.enableMod
+                || (villagerVoice && !cfg.enableVillager)
+                || (!villagerVoice && !cfg.enablePillager)) {
+            return true;
+        }
+        if (!cfg.followEntities) {
+            return false;      // 关了跟随：放给原版播（固定位置，内容仍是这套语音）
         }
         ClientLevel level = Minecraft.getInstance().level;
         if (level == null) {
